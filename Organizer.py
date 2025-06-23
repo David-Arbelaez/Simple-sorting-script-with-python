@@ -10,13 +10,13 @@ from watchdog.events import FileSystemEventHandler
 
 
 # Destination folder to keep track (path)
-source_dir = r"D:\JDownloads"
+source_dir = r"C:\source\dir\path"
 
 # Folders to set up files (customizable)
-dest_dir_notes = r"D:\JDownloads\TXT"
-dest_dir_images = r"D:\JDownloads\Images"
-dest_dir_scripts = r"D:\JDownloads\Scripts"
-dest_dir_documents = r"D:\JDownloads\Documents"
+dest_dir_notes = r"C:\notes\dir\dest"
+dest_dir_images = r"C:\images\dir\dest"
+dest_dir_scripts = r"C:\scripts\dir\dest"
+dest_dir_documents = r"C:\documents\dir\dest"
 
 
 # Supported image types
