@@ -40,5 +40,30 @@ This will open the folder of programs that start automatically with the system. 
 
 ```
 click ok and restart your system. Congratulations, your folders are now automatically organized 🥳🎉.
-<h2>Personalization</h2>
+<h2>Personalization 😎</h2>
 
+In order to organize files, the script detects the extension of the modified elements and organizes them in each folder according to it. So, in order to configure your own files, you must choose which extensions will go in each folder. To do this you must go to the section of the code that separates the extensions into general groups, add the ones you need and delete the ones you are not interested in. <br/><br/> 
+
+![image](https://github.com/user-attachments/assets/3546d922-3b7f-4c3c-9371-2f6f6469f0cd)
+
+
+Each of the lists represents a folder, be sure to include in the list each extension of the file type you want to put inside that folder. Note that the same extension should not be in more than one list. Remember the name of each of the lists (blue text) as we will need them below.
+
+Finally, we must create the logic to organize the documents in the folders. Each list has its own set of instructions, so there must be the same number of lists and functions. <br/><br/> 
+
+![image](https://github.com/user-attachments/assets/e89c62f5-0c83-458c-8a07-c56e2db68499)
+
+
+replaces the highlighted variable in the image with the name of the list you saved before.
+
+If you added a new list, you can create a new function for it using this code: <br/><br/> 
+
+```
+def check_FILETYPE_files(self, entry, name):  
+        for FILETYPE_extension in ListName:
+            if name.endswith(FILETYPE_extension) or name.endswith(FILETYPE_extension.upper()):
+                move_file(dest_dir, entry, name) # <--- dest_dir is the path of the destination folder for this type of files
+                logging.info(f"Moved script file: {name}")
+```
+
+And that's it, you can now enjoy your customized script!
