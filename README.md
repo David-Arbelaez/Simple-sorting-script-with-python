@@ -40,7 +40,8 @@ This will open the folder of programs that start automatically with the system. 
 
 ```
 click ok and restart your system. Congratulations, your folders are now automatically organized 🥳🎉.
-#Personalization 😎
+
+<h2>Personalization 😎</h2>
 
 In order to organize files, the script detects the extension of the modified elements and organizes them in each folder according to it. So, in order to configure your own files, you must choose which extensions will go in each folder. To do this you must go to the section of the code that separates the extensions into general groups, add the ones you need and delete the ones you are not interested in. <br/><br/> 
 
