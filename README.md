@@ -16,7 +16,7 @@ pip install watchdog
 Download the file <b>Organizer.py</b> and open it with your favorite code editor. Since we will only make a few simple changes, you can use notepad. Select the folder you want to organize and copy the path. Look inside the code for the space to put your path and replace <i>C:\source\dir\path</i> with your own address.<br/><br/>
 ![image](https://github.com/user-attachments/assets/0f375630-9d70-486c-afb2-029b23f5f048)
 
-The code is already programmed to organize your files in 4 categories: notes, images, scripts and documents. But you can customize it to your liking with the steps in the [personalization](#Personalization) section. Create the destination folders for each of the 4 categories, copy the paths and add the addresses in each of the code sections. <br/><br/>
+The code is already programmed to organize your files in 4 categories: notes, images, scripts and documents. But you can customize it to your liking with the steps in the [personalization]#Personalization 😎) section. Create the destination folders for each of the 4 categories, copy the paths and add the addresses in each of the code sections. <br/><br/>
 ![image](https://github.com/user-attachments/assets/08b6a930-1d6b-44d5-ab3d-8b00d90f2e1f)
 
 
