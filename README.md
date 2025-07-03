@@ -16,7 +16,7 @@ pip install watchdog
 Download the file <b>Organizer.py</b> and open it with your favorite code editor. Since we will only make a few simple changes, you can use notepad. Select the folder you want to organize and copy the path. Look inside the code for the space to put your path and replace <i>C:\source\dir\path</i> with your own address.<br/><br/>
 ![image](https://github.com/user-attachments/assets/0f375630-9d70-486c-afb2-029b23f5f048)
 
-The code is already programmed to organize your files in 4 categories: notes, images, scripts and documents. But you can customize it to your liking with the steps in the [personalization](#Personalization-😎) section. Create the destination folders for each of the 4 categories, copy the paths and add the addresses in each of the code sections. <br/><br/>
+The code is already programmed to organize your files in 4 categories: notes, images, scripts and documents. But you can customize it to your liking with the steps in the [personalization](#Personalization) section. Create the destination folders for each of the 4 categories, copy the paths and add the addresses in each of the code sections. <br/><br/>
 ![image](https://github.com/user-attachments/assets/08b6a930-1d6b-44d5-ab3d-8b00d90f2e1f)
 
 
@@ -41,7 +41,7 @@ This will open the folder of programs that start automatically with the system. 
 ```
 click ok and restart your system. Congratulations, your folders are now automatically organized 🥳🎉.
 
-# Personalization 😎
+# Personalization
 
 In order to organize files, the script detects the extension of the modified elements and organizes them in each folder according to it. So, in order to configure your own files, you must choose which extensions will go in each folder. To do this you must go to the section of the code that separates the extensions into general groups, add the ones you need and delete the ones you are not interested in. <br/><br/> 
 
